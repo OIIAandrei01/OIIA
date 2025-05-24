@@ -1,0 +1,153 @@
+.menu{
+    margin-left: 100px;
+    margin-top: 20px;
+    color: rgb(202, 118, 22);
+   font-family: 'Times New Roman', Times, serif;
+   font-size:20px;
+   display:inline-block;
+   font-weight:700;
+   cursor: pointer;
+   }
+   .menu:hover{
+       color:rgb(253, 180, 45);
+   }
+   .title{
+       color:rgb(202, 118, 22);
+       margin-left: 350px;
+       width: 800px;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 45px;
+       margin-top: 100px;
+       display: block;
+   }
+   .under_title{
+       color:rgb(202, 118, 22);
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 15px;
+       margin-top: 30px;
+       margin-bottom: 40px;
+       display: inline-block;
+   }
+   .first{
+       margin-left: 200px;
+   }
+   .img{
+       width: 500px;
+       display: block;
+       margin: 0 auto;
+   }
+   .description{
+       width: 1089px;
+       display: block;
+       margin: 0 auto;
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 15px;
+       color:black;
+   }
+   .header{
+       position: sticky;
+       top: 0;
+       background-color:antiquewhite;
+   }
+   .subscribe{
+       padding: 10px;
+       background-color: burlywood;
+   }
+   .subscribe input{
+       width: 200px;
+       padding: 5px;
+   }
+   .subscribe button{
+       background-color: cornsilk;
+       border: none;
+       padding: 5px 10px;
+       color: black;
+       font-weight: bold;
+   }
+   .review{
+       margin-top: 50px;
+       border: 1px solid black;
+       padding: 20px;
+   }
+   .rating{
+       font-size: 24px;
+       margin-bottom: 10px;
+   }
+   .star{
+       color:rgb(255, 174, 0)
+   }
+   input[type="text"], select, textarea{
+       width: 100%;
+       padding: 12px;
+       border: 1px solid rgb(206, 109, 30);
+       margin-top: 10px;
+       margin-bottom: 20px;
+   }
+   body{
+       background-color: rgb(255, 221, 170);
+   }
+   h1 {
+       text-shadow: 2px 2px 5px rgba(202, 118, 22, 0.685);
+   }
+   h1 {
+       text-shadow: 2px 2px 5px rgba(202, 118, 22, 0.685);
+   }
+   body {
+    font-family: Arial, sans-serif;
+    background: rgb(255, 205, 112);
+    padding: 40px;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+
+  button Spotify OIIA {
+    width: 200px;   /* Change width as needed */
+    height: 50px;   /* Change height as needed */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url('black.png');
+    background-size: cover;      /* Makes the image cover the whole page */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-color: #000;       /* Fallback color */
+    color: #fff;                  /* White text for contrast */
+}
+
+.container img {
+    margin-top: 32px;
+}
