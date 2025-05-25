@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <div class="menu" onClick="openArticles()">All articles</div>
+    <div class="menu" onClick="openReviews()">Revivws</div>
+    <div class="menu" onClick="openContact()">Contact</div>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+    <style>
+        .play-btn {
+            width: 60px;
+            padding: 5px 0;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .play-btn:hover {
+            background-color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Spotify OIIA</h1>
+        <img src="Spotify OIIA.png" alt="Description" width="200" height="200">
+        <div style="display: flex; align-items: center;">
+            <img src="Screenshot_20250523_211353_Samsung Music.jpg" alt="Description" style="width:100px; height:auto; margin-right: 16px;">
+            <span style="margin-right: 16px;">OIIA FUNK</span>
+            <button class="play-btn" onclick="document.getElementById('audio-funk').play()">Play</button>
+            <audio id="audio-funk" src="funk.mp3"></audio>
+            <button class="play-btn" onclick="document.getElementById('audio-funk').pause()">Stop</button>
+            <audio id="audio-funk" src="funk.mp3"></audio>
+        </div>
+    </div>
+    
+    <!-- Add space for another song below -->
+<div style="display: flex; align-items: center; margin-bottom: 24px;">
+    <img src="oiia w&w.jpg"  style="width:100px; height:auto; margin-right: 16px;">
+    <span style="margin-right: 16px;">OIIA Muzică de W&W</span>
+    <button class="play-btn" onclick="document.getElementById('audio-second').play()">Play</button>
+    <button class="play-btn" onclick="document.getElementById('audio-second').pause()">Stop</button>
+    <audio id="audio-second" src="muzica.mp3"></audio>
+</div>
+
+   <!-- Add space for another song below -->
+<div style="display: flex; align-items: center; margin-bottom: 24px;">
+    <img src="pisi.jpg"  style="width:100px; height:auto; margin-right: 16px;">
+    <span style="margin-right: 16px;">Muzica cu pisi</span>
+    <button class="play-btn" onclick="document.getElementById('audio-third').play()">Play</button>
+    <button class="play-btn" onclick="document.getElementById('audio-third').pause()">Stop</button>
+    <audio id="audio-third" src="Muzica pisi.mp3"></audio>
+</div>
+
+   <!-- Add space for another song below -->
+<div style="display: flex; align-items: center; margin-bottom: 24px;">
+    <img src="Screenshot_20250524_120057_YouTube.jpg"  style="width:100px; height:auto; margin-right: 16px;">
+    <span style="margin-right: 16px;">Cats de Living Tombstone</span>
+    <button class="play-btn" onclick="document.getElementById('audio-fourth').play()">Play</button>
+    <button class="play-btn" onclick="document.getElementById('audio-fourth').pause()">Stop</button>
+    <audio id="audio-fourth" src="Cats.mp3"></audio>
+</div>
+
+</body>
+</html>
