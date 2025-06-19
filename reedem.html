@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Introdu codul</title>
+  <script>
+    function verificaCodul() {
+      const codIntrodus = document.getElementById("cod").value;
+
+      // Lista codurilor și paginilor aferente
+      const coduri = {
+        "1973": "reedem2.html",
+        "3717": "reedem3.html",
+        "nuj": "pagina3.html"
+      };
+
+      if (coduri[codIntrodus]) {
+        window.location.href = coduri[codIntrodus]; // redirecționează către pagina potrivită
+      } else {
+        alert("Cod incorect sau inexistent!");
+      }
+    }
+  </script>
+</head>
+<body>
+  <h2>Introdu codul pentru a accesa o pagină</h2>
+  <input type="text" id="cod" placeholder="Introduce codul">
+  <button onclick="verificaCodul()">Trimite</button>
+<script src="script.js"></script>
+</body>
+</html>
